@@ -40,13 +40,13 @@ And someone interested in factorials may expect more than the usual level of pre
     30414093201713378043612608166064768844377641568960512000000000000 >
     
     
-##Regular install:
+## Regular install:
 1. Change the first line in the script (currently `#!/usr/bin/env python3`) to point to python 3.7 for case when python executable is located somewhere else
 2. Copy rpn.py file to the appropriate folder with a shortcut name. (/usr/local/bin) is a good choice: `cp ./rpn.py /usr/local/bin/rpn`
 3. Set proper permissions: `sudo chown 755 /usr/local/bin/rpn`
 4. Start the program in terminal: `rpn`
 
-##Docker container:
+## Docker container:
 
 `docker build --tag rpn:1.0 .`
  
@@ -188,7 +188,7 @@ This is the command line help from my implementation:
       exit       Exit the calculator
 
 
-####Pipelines and redirection:
+## Pipelines and redirection:
 
 
     echo 1 2 + | rpn > results.txt
