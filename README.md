@@ -21,11 +21,10 @@ While developing the implementation for this project, I found the following refe
 * The command line tool operates like other unix command line tools.
 * Can be easily run on common unix systems (linux, mac os x)
 * While building this, I thought about what happens in expected (and unexpected) error situations. This tool might be used 
-in pipelines, interactively and in a shell script.
-* Since product design is a significant part of this project, I implemented a fair bit of variation in the details and the command set.
-For example, a programmer working on a low level project might expect binary and hex input/output:   
+in pipelines, interactively and in a shell script.  
 
-
+Since product design is a significant part of this project, I implemented a fair bit of variation in the details and the command set.
+For example, a programmer working on a low level project might expect binary and hex input/output:  
 
     $ rpn
     > bin  
