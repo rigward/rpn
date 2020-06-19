@@ -23,15 +23,16 @@ While developing the implementation for this project, I found the following refe
 * While building this, I thought about what happens in expected (and unexpected) error situations. This tool might be used 
 in pipelines, interactively and in a shell script.
 * Since product design is a significant part of this project, I implemented a fair bit of variation in the details and the command set.
-For example, a programmer working on a low level project might expect binary and hex input/output:
+For example, a programmer working on a low level project might expect binary and hex input/output:   
+
 
 
     $ rpn
-    > bin
-    > 0xaa55
-    0b1010101001010101 > 2 |
-    0b1010101001010111 > 1 ~ &
-    0b1010101001010110 >
+    > bin  
+    > 0xaa55    
+    0b1010101001010101 > 2 |  
+    0b1010101001010111 > 1 ~ &  
+    0b1010101001010110 >  
 
 And someone interested in factorials may expect more than the usual level of precision:
 
