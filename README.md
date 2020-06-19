@@ -1,4 +1,4 @@
-# Reverse Polish Notation
+# Reverse Polish Notation calculator
 
 I started this project to build a complete, polished, but _small_ product: A 
 [reverse polish notation calculator](https://en.wikipedia.org/wiki/Reverse_Polish_notation) in the style of a unix command line tool.
